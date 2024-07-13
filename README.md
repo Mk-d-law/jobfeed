@@ -16,3 +16,39 @@ The jobfeed_project is a Django application developed to generate an XML job fee
 - Python 3.10
 - Django 5.0.2
 - SQLite (for local development)
+
+
+## Setup Instructions
+
+### Prerequisites
+
+- Python 3.10 installed on your system
+- Ensure pip is up-to-date (`pip install --upgrade pip`)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd jobfeed_project
+   
+2.Apply database migrations:
+```bash
+  python manage.py migrate
+
+3.run scraper.py:
+```bash
+  python scraper.py
+
+4.run django server:
+```bash
+  python manage.py runserver
+
+
+
+
+  
+
+
+
+
