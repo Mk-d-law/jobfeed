@@ -28,21 +28,24 @@ The jobfeed_project is a Django application developed to generate an XML job fee
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+```bash
+   git clone https://github.com/Mk-d-law/jobfeed
    cd jobfeed_project
+```
    
 2.Apply database migrations:
 ```bash
-  python manage.py migrate
-
+   python manage.py migrate
+```
 3.run scraper.py:
 ```bash
   python scraper.py
+```
 
 4.run django server:
 ```bash
   python manage.py runserver
+```
 
 
 
